@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Delicia Guatemala | Pasteles Artesanales</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Pasteleria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="barra-navegacion" role="navigation" aria-label="Navegación principal">
+        <div class="contenedor navegacion-contenido">
+            <div class="logo-cafe" aria-label="Logo Pastelería Delicia">
+                <i class="fas fa-birthday-cake" aria-hidden="true"></i>
+                <span>Pastelería Delicia</span>
+                <span style="font-size: 0.8rem; margin-left: 6px; color: #5a3921;">🇬🇹 Guatemala</span>
+            </div>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+            
+            <ul class="menu-principal" role="menubar">
+                <li role="none"><a href="#inicio" class="activo" role="menuitem">Inicio</a></li>
+                <li role="none"><a href="apartado-menu/indexo.html" role="menuitem">Menú</a></li>
+                <li role="none"><a href="apartado-nosotros/Index.html" role="menuitem">Nosotros</a></li>
+                <li role="none"><a href="apartado-galeria/index.html" role="menuitem">Galería</a></li>
+                <li role="none"><a href="apartado-contacto/contacto.html" role="menuitem">Contacto</a></li>
+            </ul>
+            
+            <div class="acciones-navegacion">
+                <a href="apartado-pedir/index.html" class="boton boton-pequeno boton-oscuro" aria-label="Ir a pedido">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i> Pedir ahora
+                </a>
+            </div>
+
+            <label for="menu-toggle" class="boton-menu-movil" aria-label="Abrir menú de navegación">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </label>
+        </div>
+    </nav>
+
+    <header class="seccion-hero" id="inicio" role="banner">
+        <div class="contenedor contenido-hero">
+            <div class="texto-hero">
+                <h1 class="titulo-hero">El dulce perfecto de Guatemala en cada bocado</h1>
+                <p class="descripcion-hero">Disfruta de pasteles y postres artesanales, elaborados cada día con ingredientes frescos y mucho amor en un ambiente acogedor y familiar.</p>
+                <div class="botones-hero">
+                    <a href="apartado-menu/indexo.html" class="boton boton-grande boton-claro">
+                        Ver nuestra pastelería <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="apartado-contacto/contacto.html" class="boton boton-grande boton-transparente">
+                        <i class="fas fa-map-marker-alt"></i> Visítanos
+                    </a>
+                        <style>
+                            html {
+                                scroll-behavior: smooth;
+                            }
+                        </style>
+                </div>
+            </div>
+            <div class="imagen-hero">
+                <div class="marco-imagen">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Pastel artesanal sobre mesa de madera, decoración cálida" loading="lazy">
+                </div>
+            </div>
+        </div>
+        <div class="elementos-decorativos">
+            <div class="decoracion decoracion-1"></div>
+            <div class="decoracion decoracion-2"></div>
+        </div>
+    </header>
+
+
+    <hr>    
+
+     <section class="galeria" id="galeria">
+        <div class="contenedor contenedor-galeria">
+
+            <!-- Fila 1: Texto (izq) - Imagen (der) -->
+            <div class="fila-galeria">
+                <div class="galeria-item texto-item">
+                    <div>
+                        <h3>Prueba.</h3>
+                        <p>Nuestros deliciosos pasteles y postres!!</p>
+                    </div>
+                </div>
+                <div class="galeria-item imagen-item">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Pasteles variados en vitrina" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Fila 2: Imagen (izq) - Texto (der) -->
+            <div class="fila-galeria">
+                <div class="galeria-item imagen-item">
+                    <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Tazas de café y pastel" loading="lazy">
+                </div>
+                <div class="galeria-item texto-item">
+                    <div>
+                        <h3>Descubre.</h3>
+                        <p>Sabores exquisitos y únicos en cada pastel.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fila 3: Texto (izq) - Imagen (der) -->
+            <div class="fila-galeria">
+                <div class="galeria-item texto-item">
+                    <div>
+                        <h3>Artesanal</h3>
+                        <p>Pastelería hecha cada día con ingredientes naturales.</p>
+                    </div>
+                </div>
+                <div class="galeria-item imagen-item">
+                    <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Panadería artesanal, pan fresco" loading="lazy">
+                </div>
+            </div>
+
+        </div>
+     </section>
+
+    <section class="infomarcion-direccion" aria-label="Información de dirección y horario">
+
+                <h2 class="info-titulo">Pásate a comer algo.</h2>
+
+    <div class="info-contenido">
+        <div class="info-bloque">
+            <h3>Dirección</h3>
+            <p>
+                6a Avenida 10-30, Zona 9<br>
+                Ciudad de Guatemala, Guatemala 🇬🇹
+            </p>
+        </div>
+
+        <span class="info-linea"></span>
+
+        <div class="info-bloque">
+            <h3>Horario laboral</h3>
+            <p>
+                Lun - Vie: 9:00 - 18:00<br>
+                Sábado: 10:00 - 14:00<br>
+                Domingo: cerrado
+            </p>
+        </div>
+    </div>
+     </section>
+
+    <section class="seccion-servicios" aria-label="Nuestros servicios">
+        <div class="contenedor">
+            <div class="encabezado-seccion">
+                <h2>Nuestros servicios</h2>
+                <p>Todo lo que necesitas para disfrutar de un momento especial</p>
+            </div>
+            
+            <div class="tarjetas-servicios">
+                <div class="tarjeta-servicio">
+                    <div class="icono-servicio" aria-hidden="true">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <h3>Pasteles de especialidad</h3>
+                    <p>Recetas únicas, decoraciones personalizadas y sabores que sorprenden en cada ocasión.</p>
+                </div>
+                
+                <div class="tarjeta-servicio">
+                    <div class="icono-servicio" aria-hidden="true">
+                        <i class="fas fa-bread-slice"></i>
+                    </div>
+                    <h3>Repostería fresca</h3>
+                    <p>Panadería artesanal hecha diariamente con ingredientes naturales y de la mejor calidad.</p>
+                </div>
+                
+                <div class="tarjeta-servicio">
+                    <div class="icono-servicio" aria-hidden="true">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Entrega a domicilio</h3>
+                    <p>Disfruta de nuestros productos en la comodidad de tu hogar con nuestro servicio de delivery.</p>
+                </div>
+                
+                <div class="tarjeta-servicio">
+                    <div class="icono-servicio" aria-hidden="true">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Eventos especiales</h3>
+                    <p>Celebra tus momentos especiales con nosotros. Organizamos eventos personalizados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa interactivo pequeño -->
+    <section class="seccion-mapa-pequena" id="ubicacion" aria-label="Ubicación en mapa">
+        <div class="contenedor">
+            <h3>Ubicación 🇬🇹 Guatemala</h3>
+            <div class="map-small">
+                <iframe
+                    src="https://www.google.com/maps?q=6a%20Avenida%2010-30%2C%20Zona%209%2C%20Ciudad%20de%20Guatemala%2C%20Guatemala&output=embed"
+                    allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Mapa ubicación Pastelería Delicia Guatemala" aria-label="Mapa de ubicación Pastelería Delicia Guatemala"></iframe>
+            </div>
+        </div>
+    </section>
+   <a href="apartado-pedir/index.html" class="btn-pedir-flotante" aria-label="Pedir ahora">
+        <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+    </a>    
+    <footer class="pie-pagina" id="contacto" role="contentinfo">
+        <div class="derechos-autor">
+            <div class="contenedor">
+                <p>&copy; 2023 Café Delicia. Todos los derechos reservados. | Diseño inspirado en plantilla Wix</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Floating mobile order button -->
+ 
+</body>
+</html>
